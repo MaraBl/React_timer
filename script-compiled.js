@@ -133,8 +133,7 @@ var Stopwatch = function (_React$Component) {
           "div",
           { className: "stopwatch" },
           this.format()
-        ),
-        React.createElement("ul", { className: "results" })
+        )
       );
     }
   }]);

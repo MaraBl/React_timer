@@ -59,8 +59,6 @@ class Stopwatch extends React.Component {
     clearInterval(this.watch);
   }
 
-  
-
   resetTimer() {
     this.stop();
     this.reset();
@@ -76,7 +74,6 @@ class Stopwatch extends React.Component {
         </nav>
 
         <div className="stopwatch">{this.format()}</div>
-        <ul className="results"></ul>
       </div>
     );
   }
@@ -91,7 +88,6 @@ function pad0(value) {
 }
 
 ReactDOM.render(
-  <Stopwatch />,
-  document.getElementById("app")
+  <Stopwatch />, document.getElementById("app")
 );
 
