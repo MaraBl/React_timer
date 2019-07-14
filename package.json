@@ -1,0 +1,29 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "script.js",
+  "scripts": {
+    "start": "babel script.js --watch --out-file script-compiled.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaraBl/learning-git-2.git"
+  },
+  "keywords": [],
+  "author": "marta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaraBl/learning-git-2/issues"
+  },
+  "homepage": "https://github.com/MaraBl/learning-git-2#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer-cli": "^1.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
